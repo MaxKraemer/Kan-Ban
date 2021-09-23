@@ -1,0 +1,12 @@
+//global style and changing bulma variables
+
+//Import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+$family-sans-serif: "Nunito", sans-serif;
+
+//update bulma components variables
+$control-border-width: 2px;
+$imput-border-color: transparent;
+$imput-shadow: none;
+
