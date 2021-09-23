@@ -1,0 +1,23 @@
+.root {
+
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+
+}
+
+.app-name {
+
+    font-size: 20px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+}
+
+.has-gradient-text {
+
+    background: -webkit-linear-gradient(#13f7f4,#9a2af5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+

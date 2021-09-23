@@ -10,3 +10,17 @@ $control-border-width: 2px;
 $imput-border-color: transparent;
 $imput-shadow: none;
 
+/* main style */
+
+html, body {
+
+    height: 100%;
+}
+
+html {
+
+    background-image: url('./assets/img/background.jpg');
+    background-size: cover;
+
+    overflow-y: auto !important;
+}
