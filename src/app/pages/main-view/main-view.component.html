@@ -43,9 +43,15 @@
                     In-Progress
 
                 </div>
-                <div class="tasks-container">
-                    
+                <div class="tasks-container"    
+                cdkDropList
+                [cdkDropListData]="done"
+                (cdkDropListDropped)="drop($event)">
+                    <div class="task" *ngFor="let item of done" cdkDrag>
+                     {{ item }}
 
+                    </div>
+                   
                 </div>
             </div>
 
